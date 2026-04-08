@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:161b22,100:1f6feb&amp;height=220&amp;section=header&amp;text=Manasa%20Deshagouni&amp;fontSize=42&amp;fontColor=58a6ff&amp;fontAlignY=35&amp;desc=Production%20ML%20·%20GenAI%20Systems%20·%20Embeddings%20%26%20Retrieval%20·%20Backend%20at%20Scale&amp;descSize=14&amp;descColor=8b949e&amp;descAlignY=55&amp;animation=fadeIn" width="100%"/>
-</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/deshagounimanasa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
