@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Manasa%20Deshagouni&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=Production%20ML%20·%20GenAI%20Systems%20·%20Embeddings%20%26%20Retrieval%20·%20Backend%20at%20Scale&descSize=14&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:161b22,100:1f6feb&amp;height=220&amp;section=header&amp;text=Manasa%20Deshagouni&amp;fontSize=42&amp;fontColor=58a6ff&amp;fontAlignY=35&amp;desc=Production%20ML%20·%20GenAI%20Systems%20·%20Embeddings%20%26%20Retrieval%20·%20Backend%20at%20Scale&amp;descSize=14&amp;descColor=8b949e&amp;descAlignY=55&amp;animation=fadeIn" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/deshagounimanasa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://glittering-snickerdoodle-8c9296.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="mailto:manasadprep@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/deshagounimanasa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
+  <a href="https://glittering-snickerdoodle-8c9296.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" /></a>
+  <a href="mailto:manasadprep@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" /></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=I+build+AI+systems+that+survive+contact+with+production." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=I+build+AI+systems+that+survive+contact+with+production." />
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ A local-first AI agent that ingests everything — PDFs, notes, receipts, images
 | **100k+ documents** indexed | **< 500ms** retrieval |
 | 5 features: search, Q&A, summarize, rank, discover | Metadata filtering + temporal reranking |
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" /> <img src="https://img.shields.io/badge/CLIP-412991?style=flat-square&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" /> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&amp;logo=meta&amp;logoColor=white" /> <img src="https://img.shields.io/badge/CLIP-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&amp;logo=streamlit&amp;logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" />
 
 </td></tr>
 </table>
@@ -103,7 +103,7 @@ Multi-tenant on-call alerting SaaS with real-time dedup, correlation, and idempo
 | Delivery success | **77% → 94%** (retries + backoff + DLQ < 0.6%) |
 | Ack→resolve p95 | **220ms** |
 
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=spring-boot&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&amp;logo=apache-kafka&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" />
 
 </td></tr>
 </table>
@@ -141,7 +141,7 @@ Multi-tenant on-call alerting SaaS with real-time dedup, correlation, and idempo
 
 Multimodal deception detection that fuses *what you say* with *how you say it*. Temporal acoustic features encoded via BiLSTM, transcript text encoded via DistilBERT with explicit lexical/linguistic cues, late-fused through XGBoost for robust classification on short, noisy clips.
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square" /> <img src="https://img.shields.io/badge/BiLSTM-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/DistilBERT-412991?style=flat-square" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" /> <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square" /> <img src="https://img.shields.io/badge/BiLSTM-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/DistilBERT-412991?style=flat-square" />
 
 </td></tr>
 </table>
@@ -175,7 +175,7 @@ Interactive coding + quiz platform with modular Spring Boot backend, sandboxed c
 | Dropped updates | **< 0.5%** |
 | Cache speedup | **230 → 140ms (−39%)** |
 
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white" /> <img src="https://img.shields.io/badge/Monaco-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=spring-boot&amp;logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" /> <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Monaco-007ACC?style=flat-square&amp;logo=visual-studio-code&amp;logoColor=white" /> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&amp;logo=k6&amp;logoColor=white" />
 
 </details>
 
@@ -370,5 +370,5 @@ observability:
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:161b22,100:1f6feb&amp;height=100&amp;section=footer" width="100%"/>
 </p>
