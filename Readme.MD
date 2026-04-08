@@ -23,9 +23,9 @@
 
 ## `~/about`
 
-I’m **Manasa**, a Master's student in **Computer Science at San José State University** and a **Graduate Research Assistant** working on **zero-shot malware attribution** with metric-learned embeddings.
+I'm **Manasa**, a Master's student in **Computer Science at San José State University** and a **Graduate Research Assistant** working on **zero-shot malware attribution** with metric-learned embeddings.
 
-Previously, I spent 2 years at **Optum (UnitedHealth Group)** shipping **production ML**, **GenAI features**, and **backend systems** for a secure platform used by **5k+ users**.
+Previously, I spent 2+ years at **Optum (UnitedHealth Group)** shipping **production ML**, **GenAI features**, and **backend systems** for a secure file-transfer platform.
 
 I care about the part of ML that actually gets used: **retrieval**, **inference**, **guardrails**, **evaluation**, **rollout safety**, and the systems that turn predictions into action.
 
@@ -33,93 +33,149 @@ I care about the part of ML that actually gets used: **retrieval**, **inference*
 - 🧠 **Interested in:** production ML, GenAI/RAG, embeddings, backend systems
 - 🤝 **Open to:** SWE, MLE, Applied ML, and Research Engineer roles
 
-> **Philosophy:** Research matters. Production proves it.
-
----
-
-## `impact.log`
-
-- Built an ML system that **reduced severe incidents by ~80%**
-- Took **GenAI features from MVP to production in 4 weeks**
-- Shipped systems on a platform serving **5k+ users**
-- Built low-latency inference workflows with **~85 ms p95**
-- Researching **cross-domain generalization** with metric-learned embeddings
-
 ---
 
 ## `projects/featured`
 
+<table>
+<tr><td>
+
 ### 🧠 [Digital Life Curator](https://github.com/manasa-deshagouni/digital-life-curator)
-**Adaptive multimodal RAG system**
 
-A local-first knowledge agent for PDFs, notes, images, receipts, and code snippets.
+```
+  ╭──────────────────────────────────────────╮
+  │  🔍  "What was that paper about          │
+  │       attention mechanisms I read         │
+  │       last month?"                        │
+  │                                           │
+  │  Found 3 results in 47ms                  │
+  │  ├── 📄 attention_is_all_you_need.pdf     │
+  │  │   ✦ 0.94 relevance · chunk 3/12       │
+  │  ├── 📝 transformer_notes.md              │
+  │  │   ✦ 0.89 relevance · tagged: #nlp     │
+  │  └── 🖼️ architecture_diagram.png          │
+  │      ✦ 0.81 relevance · CLIP matched     │
+  ╰──────────────────────────────────────────╯
+```
 
-**What it does**
-- Generates multimodal embeddings using **MiniLM** for text and **CLIP** for images
-- Stores chunk-level vectors and metadata in a **FAISS HNSW** index
-- Supports **semantic search**, **contextual Q&A**, **summarization**, **explainable ranking**, and **related-content discovery**
+**Your second brain, with semantic superpowers.**
 
-**Highlights**
-- **100k+ documents**
-- **< 500 ms retrieval latency**
-- Adaptive retrieval with **metadata filtering** and **temporal reranking**
+A local-first AI agent that ingests everything — PDFs, notes, receipts, images, code snippets — and makes it all searchable by *meaning*, not keywords. Multimodal embeddings (**MiniLM** for text, **CLIP** for images), **FAISS HNSW** index, adaptive retrieval with temporal reranking.
 
-**Stack:** `Python` `FAISS` `CLIP` `Streamlit` `Hugging Face`
+| What it handles | How it performs |
+|:---|:---|
+| **100k+ documents** indexed | **< 500ms** retrieval |
+| 5 features: search, Q&A, summarize, rank, discover | Metadata filtering + temporal reranking |
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" /> <img src="https://img.shields.io/badge/CLIP-412991?style=flat-square&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+
+</td></tr>
+</table>
 
 ---
+
+<table>
+<tr><td>
 
 ### 🔔 [NotifyOps](https://github.com/manasa-deshagouni/notifyops)
-**Multi-tenant on-call and incident alerting SaaS**
 
-A real-time alerting system that pages the right engineer fast and suppresses noisy duplicates.
+```
+  03:14:22 ⚠  ALERT  disk_full on prod-db-03
+  03:14:22 ⚠  ALERT  disk_full on prod-db-03   ← duplicate, suppressed
+  03:14:23 ⚠  ALERT  disk_full on prod-db-03   ← duplicate, suppressed
+  03:14:24 🔔 PAGED  @sarah (on-call: infra)    ← 1.9s from first alert
+  03:14:26 ✅ ACK    @sarah acknowledged         ← 220ms ack→resolve
+  
+  ┌─────────────────────────────┐
+  │ 3 alerts → 1 page → 1 ack  │
+  │ 58% noise eliminated       │
+  └─────────────────────────────┘
+```
 
-**What it does**
-- Deduplicates and correlates alerts in real time
-- Uses idempotent workers and secure ingest with **JWT/HMAC**
-- Provides a live **React + WebSocket** console for ack/resolve workflows
-- Can run standalone or in front of a paging platform
+**Pages the right engineer. Kills the noise.**
 
-**Highlights**
-- **1.9s first-notify p95 @ 350 req/s**
-- **58% duplicate suppression**
-- **94% delivery success**
-- **220 ms ack→resolve p95**
+Multi-tenant on-call alerting SaaS with real-time dedup, correlation, and idempotent workers. JWT/HMAC-secured ingest. React + WebSocket console for live ack/resolve. Runs standalone or as a pre-filter ahead of PagerDuty/Opsgenie.
 
-**Stack:** `Spring Boot` `Kafka` `Redis` `React` `PostgreSQL`
+| Metric | Result |
+|:---|:---|
+| First-notify p95 | **1.9s @ 350 req/s** |
+| Duplicate suppression | **58%** |
+| Delivery success | **77% → 94%** (retries + backoff + DLQ < 0.6%) |
+| Ack→resolve p95 | **220ms** |
+
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+
+</td></tr>
+</table>
 
 ---
 
+<table>
+<tr><td>
+
 ### 🎭 [TruthReaper](https://github.com/manasa-deshagouni/truthreaper)
-**Multimodal voice-based behavioral classifier**
 
-A cross-modal deception detection system that combines what is said with how it is said.
+```
+          AUDIO                          TEXT
+            │                              │
+   ┌────────▼────────┐          ┌──────────▼──────────┐
+   │  Acoustic feats  │          │  DistilBERT + cues  │
+   │  → BiLSTM        │          │  → text embedding    │
+   └────────┬────────┘          └──────────┬──────────┘
+            │         confidence            │
+            └──────────┐  ┌────────────────┘
+                    ┌──▼──▼──┐
+                    │ XGBoost │  ← late fusion
+                    │  Fuser  │
+                    └────┬───┘
+                         │
+                    ┌────▼────┐
+                    │ TRUTH or │
+                    │ DECEPTION│
+                    └─────────┘
+                    
+   accuracy: 89.4%  ·  precision: 93.5%
+```
 
-**What it does**
-- Encodes temporal acoustic signals with **BiLSTM**
-- Encodes text with **DistilBERT** plus linguistic features
-- Uses **late fusion with XGBoost** for robust classification on short, noisy samples
+**Your voice says more than your words.**
 
-**Highlights**
-- **89.4% accuracy**
-- **93.5% precision**
-- Multimodal reasoning over **audio + text**
+Multimodal deception detection that fuses *what you say* with *how you say it*. Temporal acoustic features encoded via BiLSTM, transcript text encoded via DistilBERT with explicit lexical/linguistic cues, late-fused through XGBoost for robust classification on short, noisy clips.
 
-**Stack:** `PyTorch` `Hugging Face` `BiLSTM` `DistilBERT` `XGBoost`
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square" /> <img src="https://img.shields.io/badge/BiLSTM-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/DistilBERT-412991?style=flat-square" />
+
+</td></tr>
+</table>
 
 ---
 
 <details>
-<summary><b>More builds</b></summary>
+<summary><b>🎮 More builds → QuizChronicles</b></summary>
 
-### 🎮 [QuizChronicles](https://github.com/manasa-deshagouni/quizchronicles)
-Interactive coding + quiz platform with sandboxed code execution, real-time rooms, leaderboards, WebSocket fan-out, and a game-style solo coding mode.
+### [QuizChronicles](https://github.com/manasa-deshagouni/quizchronicles)
 
-**Highlights**
-- **180 ms submission p95 @ 200 users**
-- **120 ms fan-out p95 @ 800 sockets**
-- **< 0.5% dropped updates**
+```
+  ┌─ ROOM: "algo-arena" ──────── 4/10 players ─┐
+  │                                              │
+  │  🟢 alice    142 pts   solving Q3...         │
+  │  🟢 bob      138 pts   submitted ✓  180ms   │
+  │  🟡 charlie  120 pts   idle                  │
+  │  🟢 you      155 pts   🏆 leading            │
+  │                                              │
+  │  ⏱️ 02:34 remaining                          │
+  │  fan-out: 120ms p95 across 800 sockets       │
+  └──────────────────────────────────────────────┘
+```
 
-**Stack:** `Spring Boot` `React` `WebSockets` `Monaco` `k6`
+Interactive coding + quiz platform with modular Spring Boot backend, sandboxed code execution, React + Monaco editor, real-time rooms, leaderboards, proctor controls over WebSockets, and a timed game-themed solo coding mode.
+
+| Metric | Result |
+|:---|:---|
+| Submission p95 | **180ms @ 200 users** |
+| Fan-out p95 | **120ms @ 800 sockets** |
+| Dropped updates | **< 0.5%** |
+| Cache speedup | **230 → 140ms (−39%)** |
+
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white" /> <img src="https://img.shields.io/badge/Monaco-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white" />
 
 </details>
 
@@ -128,71 +184,133 @@ Interactive coding + quiz platform with sandboxed code execution, real-time room
 ## `work/production`
 
 > [!NOTE]
-> I can't open-source proprietary company code, but I can share the architectures, constraints, and measurable outcomes.
+> Can't open-source proprietary code — but here's what I built and what it did.
 
-### ⚙️ Predictive Reliability Engine @ Optum
-Built an end-to-end **stream → inference → action** pipeline on a secure file-transfer gateway.
+<table>
+<tr>
+<td width="4%" align="center">⚡</td>
+<td><b>Predictive Reliability Engine</b></td>
+<td width="38%">
 
-**Architecture**
-- **Kafka** ingestion for live operational telemetry
-- **FastAPI + ONNX** for low-latency scoring
-- **Spring Boot** mitigation gates for safe workflow actions
-- Passive-to-active rollout with guarded remediation
+```
+Kafka → FastAPI+ONNX → Spring Boot gates
+     scoring: p95 85ms @ 1.2k msgs/s
 
-**Impact**
-- **~80% reduction** in severe backlog incidents
-- **~70% reduction** in manual interventions
-- **~85 ms p95** inference latency
+shadow mode → canary (14d, 0 FP) → prod
+```
 
----
+</td>
+<td align="right">
+  <img src="https://img.shields.io/badge/incidents-↓80%25-2ea44f?style=flat-square" /><br/>
+  <img src="https://img.shields.io/badge/manual_work-↓70%25-2ea44f?style=flat-square" /><br/>
+  <img src="https://img.shields.io/badge/diagnosis-↓73%25-2ea44f?style=flat-square" />
+</td>
+</tr>
+<tr>
+<td align="center">🤖</td>
+<td><b>GenAI Product Features</b></td>
+<td>
 
-### 🤖 GenAI Product Features @ Optum
-Built two production AI features: a **configuration explainer** and a **log troubleshooting assistant**.
+```
+config/logs → sanitize → RAG retrieve
+  → LLM (LLaMA-2 / Mistral-7B + LoRA)
+  → validate schema → serve
+```
 
-**What I built**
-- Python services behind existing APIs
-- A **RAG pipeline** over sanitized configs, runbooks, and log timelines
-- **Structured output validation**, **fallback handling**, **caching**, and **read-only response policies**
-- Fine-tuned **LLaMA-2** and **Mistral-7B** with **PEFT/LoRA**
+</td>
+<td align="right">
+  <img src="https://img.shields.io/badge/MVP-4_weeks-2ea44f?style=flat-square" /><br/>
+  <img src="https://img.shields.io/badge/prod-3_months-2ea44f?style=flat-square" /><br/>
+  <img src="https://img.shields.io/badge/users-5k%2B-2ea44f?style=flat-square" />
+</td>
+</tr>
+<tr>
+<td align="center">🔧</td>
+<td><b>ECG Platform Services</b></td>
+<td>
 
-**Impact**
-- **MVP to production in 4 weeks**
-- Reduced debugging friction for operators
-- Shipped on a platform serving **5k+ users**
+```
+20+ UIs + Spring Boot APIs
+dual-schema rollout → 0 breakages
+correlation IDs: UI→API→workers
+```
+
+</td>
+<td align="right">
+  <img src="https://img.shields.io/badge/build_time-↓22%25-2ea44f?style=flat-square" /><br/>
+  <img src="https://img.shields.io/badge/MTTR-↓40%25-2ea44f?style=flat-square" /><br/>
+  <img src="https://img.shields.io/badge/misconfigs-↓31%25-2ea44f?style=flat-square" />
+</td>
+</tr>
+</table>
 
 ---
 
 ## `research/active`
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### 🦠 Neural Fingerprints for Malware
 **Graduate Research Assistant @ SJSU**
 
-Learning domain-robust malware image embeddings on a hypersphere so unseen malware can be clustered and retrieved by similarity — without retraining.
+```
+malware binary → image → ResNet encoder
+  → L2 normalize → hypersphere embedding
+  → FAISS HNSW → nearest family match
 
-**Current focus**
-- Metric-learning objectives such as **ProxyAnchor**, **Triplet**, and **SupCon**
-- Stable cross-domain retrieval under dataset shift
-- **FAISS HNSW**-based open-set retrieval
+  train: 47 families (MalNet + MalImg)
+  test:  17 unseen families (zero-shot)
+```
 
-**Key idea**
-Strong in-domain separation does not guarantee cross-domain generalization. The real challenge is representation stability under shift.
+Learning domain-robust embeddings with **ProxyAnchor**, **Triplet**, and **SupCon** losses so unseen malware can be clustered and retrieved — without retraining.
 
----
+**Key insight:** Strong in-domain separation ≠ cross-domain generalization. The bottleneck is representation stability under dataset shift, not loss function choice.
 
-### 🏃 Cross-Domain Human Activity Recognition
-Built a zero-shot pocket HAR pipeline across heterogeneous smartphone sensors for **Sitting / Standing / Walking**.
+| | |
+|:---|:---|
+| Cross-domain retrieval | **88.02%** (MalNet→MalImg) |
+| Strict zero-shot | **57–67%** (17 unseen families) |
+| Best loss | ProxyAnchor |
 
-**Highlights**
-- **94.1% Macro-F1** on source domains
-- **~95.9% Macro-F1** on zero-shot transfer
-- Recovered **standing recall from ~0% to ~99%** by fixing preprocessing-distribution mismatch
+</td>
+<td width="50%" valign="top">
+
+### 🏃 Cross-Domain HAR
+**Zero-shot Pocket Activity Recognition**
+
+```
+4 source datasets (heterogeneous phones)
+  → unified calibration pipeline
+  → physics-aware temporal model
+  → 3 zero-shot target datasets
+
+  standing recall: 0% ──fix pipeline──→ ~99%
+```
+
+Multi-source domain adaptation for **Sitting / Standing / Walking**. Physics-aware calibrator auto-detects sampling rate, units, and orientation of unseen sensors.
+
+**Key insight:** Standing recall collapsed to ~0% from preprocessing-distribution mismatch — not model weakness. Fixing the pipeline fixed the model.
+
+| | |
+|:---|:---|
+| Source-domain F1 | **94.1%** (subject-disjoint) |
+| Zero-shot transfer | **~95.9%** (UTwente) |
+| Standing recovery | **0% → ~99%** |
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## `papers/`
 
-- 🏆 [**Brain Tumor Detection using Machine Learning**](https://journal.ipem.edu.in/computer_applications/wp-content/uploads/2024/02/paper-3.pdf) — **ICCDS 2024, Best Paper Award**
-- [**Deep Learning Techniques for Detection of Deepfakes**](https://ijsrset.com/home/issue/view/article.php?id=IJSRSET2310102) — **IJSRSET, ICSCR 2023**
+| Year | Paper | Venue |
+|:----:|-------|-------|
+| 🏆 2024 | [**Brain Tumor Detection using Machine Learning**](https://journal.ipem.edu.in/computer_applications/wp-content/uploads/2024/02/paper-3.pdf) | ICCDS 2024 · **Best Paper Award** |
+| 2023 | [**Deep Learning Techniques for Detection of Deepfakes**](https://ijsrset.com/home/issue/view/article.php?id=IJSRSET2310102) | IJSRSET (ICSCR 2023) |
 
 ---
 
@@ -200,14 +318,14 @@ Built a zero-shot pocket HAR pipeline across heterogeneous smartphone sensors fo
 
 ```yaml
 languages:
-  - Python
   - Java
+  - Python
   - Go
   - C++
   - TypeScript
   - SQL
 
-ml_ai:
+ml_and_ai:
   - PyTorch
   - TensorFlow
   - Transformers
@@ -215,10 +333,13 @@ ml_ai:
   - FAISS
   - PEFT / LoRA
   - LangChain
+  - scikit-learn
+  - XGBoost
 
-systems:
-  - FastAPI
+backend_and_systems:
   - Spring Boot
+  - Spring Security
+  - FastAPI
   - Kafka
   - Redis
   - PostgreSQL
@@ -226,17 +347,26 @@ systems:
   - Docker
   - Kubernetes
   - GCP
+  - AWS
 
 frontend:
   - React
   - Angular
   - Tailwind
+  - Vite
+
+observability:
+  - Grafana
+  - Prometheus
+  - Selenium / Cucumber
+  - JUnit
+  - k6
 ```
 
 ---
 
 <p align="center">
-  <i>"If it doesn't work in production, it doesn't work."</i>
+  <i>"Research matters. Production proves it."</i>
 </p>
 
 <p align="center">
