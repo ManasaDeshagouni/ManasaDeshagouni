@@ -1,371 +1,208 @@
+<!-- ⚡ SETUP: Find & replace ALL instances of "YOUR-USERNAME" with your GitHub username. Then fix the project repo links in the Featured Projects section. That's it! -->
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/deshagounimanasa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
-  <a href="https://glittering-snickerdoodle-8c9296.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" /></a>
-  <a href="mailto:manasadprep@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" /></a>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Manasa%20Deshagouni&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=ML%20Engineer%20%E2%9C%A6%20Full-Stack%20Developer%20%E2%9C%A6%20Security%20Researcher&descSize=18&descAlignY=55" width="100%"/>
+</div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=I+build+AI+systems+that+survive+production." />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Shipping+ML+systems+to+production+%F0%9F%9A%80;Hunting+malware+with+zero-shot+learning+%F0%9F%95%B5%EF%B8%8F;Full-stack%3A+React+%E2%86%92+Kubernetes+%E2%98%81%EF%B8%8F;ICPC+Regionalist+%7C+Top+10+of+136+teams+%F0%9F%8F%86" alt="Typing SVG" />
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/severe_incidents-↓80%25-2ea44f?style=flat-square" />
-  <img src="https://img.shields.io/badge/GenAI_MVP-4_weeks_to_prod-2ea44f?style=flat-square" />
-  <img src="https://img.shields.io/badge/platform-5k%2B_users-2ea44f?style=flat-square" />
-  <img src="https://img.shields.io/badge/inference_p95-85ms-2ea44f?style=flat-square" />
-</p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=for-the-badge&color=blueviolet" alt="Profile views"/>
+</div>
 
----
+<br/>
 
-## `~/about`
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
-I'm **Manasa**, a Master's student in **Computer Science at San José State University** and a **Graduate Research Assistant** working on **zero-shot malware attribution** with metric-learned embeddings.
+## 🧬 About Me
 
-Previously, I spent 2+ years at **Optum (UnitedHealth Group)** shipping **production ML**, **GenAI features**, and **backend systems** for a secure file-transfer platform.
+```python
+class ManasaDeshagouni:
+    def __init__(self):
+        self.education   = "MS Computer Science @ San Jose State University 🎓"
+        self.previously  = "Software Engineer @ UnitedHealth Group (2+ years)"
+        self.research    = ["Zero-shot malware detection 🔬", "Cross-domain activity recognition 📱"]
+        self.battle_tested = "ML inference at p95 < 100ms serving 50K+ daily transactions"
+        self.trophy_wall = ["🏆 ICPC Asia Regional — Top 10 / 136 teams",
+                            "📜 Best Paper Award, ICCDS 2024",
+                            "✍️ 2x First-Author Publications"]
 
-I care about the part of ML that actually gets used: **retrieval**, **inference**, **guardrails**, **evaluation**, **rollout safety**, and the systems that turn predictions into action.
+    def current_obsession(self):
+        return "Teaching machines to recognize threats they've never seen before"
+```
 
-- 🔬 **Currently researching:** zero-shot retrieval, metric learning, FAISS-based search
-- 🧠 **Interested in:** production ML, GenAI/RAG, embeddings, backend systems
-- 🤝 **Open to:** SWE, MLE, Applied ML, and Research Engineer roles
+- 🔭 Building ML systems that survive **production** — not just notebooks
+- 🛡️ Researching **zero-shot malware family identification** — 19K+ binaries, 98% open-set AUROC
+- ⚙️ I like my ML with an SLA: **ONNX Runtime, p95 under 100ms, shadow-mode A/B rollouts**
+- 🎮 I build things that are fun too — real-time quiz battles, voice lie-detectors, AI agents
+- 💬 Ask me about **PyTorch, self-supervised learning, FastAPI, React, or competitive programming**
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
-## `projects/featured`
+## 🛠️ Tech Arsenal
+
+<div align="center">
+
+### 👩‍💻 Languages
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
+
+### 🧠 Machine Learning & AI
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black"/> <img src="https://img.shields.io/badge/XGBoost-0073B7?style=for-the-badge"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/RAG-8A2BE2?style=for-the-badge"/> <img src="https://img.shields.io/badge/PEFT%2FLoRA-FF1493?style=for-the-badge"/>
+
+### 🌐 Full-Stack
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge"/> <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge"/> <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+
+### ☁️ Cloud & DevOps
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+
+### 🗄️ Databases & Storage
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/FAISS_Vector_Search-0467DF?style=for-the-badge"/>
+
+### 🔐 Security
+<img src="https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge"/> <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/> <img src="https://img.shields.io/badge/RBAC-8B0000?style=for-the-badge"/> <img src="https://img.shields.io/badge/Malware_Analysis-2F4F4F?style=for-the-badge"/> <img src="https://img.shields.io/badge/Anomaly_Detection-483D8B?style=for-the-badge"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
+
+## 🚀 Featured Projects
 
 <table>
-<tr><td>
-
-### 🧠 [Digital Life Curator](https://github.com/manasa-deshagouni/digital-life-curator)
-
-```
-  ╭──────────────────────────────────────────╮
-  │  🔍  "What was that paper about          │
-  │       attention mechanisms I read         │
-  │       last month?"                        │
-  │                                           │
-  │  Found 3 results in 47ms                  │
-  │  ├── 📄 attention_is_all_you_need.pdf     │
-  │  │   ✦ 0.94 relevance · chunk 3/12       │
-  │  ├── 📝 transformer_notes.md              │
-  │  │   ✦ 0.89 relevance · tagged: #nlp     │
-  │  └── 🖼️ architecture_diagram.png          │
-  │      ✦ 0.81 relevance · CLIP matched     │
-  ╰──────────────────────────────────────────╯
-```
-
-**Your second brain, with semantic superpowers.**
-
-A local-first AI agent that ingests everything — PDFs, notes, receipts, images, code snippets — and makes it all searchable by *meaning*, not keywords. Multimodal embeddings (**MiniLM** for text, **CLIP** for images), **FAISS HNSW** index, adaptive retrieval with temporal reranking.
-
-| What it handles | How it performs |
-|:---|:---|
-| **100k+ documents** indexed | **< 500ms** retrieval |
-| 5 features: search, Q&A, summarize, rank, discover | Metadata filtering + temporal reranking |
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" /> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&amp;logo=meta&amp;logoColor=white" /> <img src="https://img.shields.io/badge/CLIP-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&amp;logo=streamlit&amp;logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" />
-
-</td></tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🕵️ Zero-Shot Malware Triage</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SimCLR-8A2BE2?style=flat-square"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      </p>
+      <p>A malware detective that identifies families it has <b>never seen before</b>. Neural fingerprints from 19K+ binary visualizations, bridging Windows PE ↔ Android. <b>72% Retrieval@3 · 98% open-set AUROC</b> — served through an interactive analyst dashboard.</p>
+      <p align="center"><a href="https://github.com/YOUR-USERNAME/REPO-NAME">🔗 View Project</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚔️ QuizChronicles</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Monaco-0078D7?style=flat-square"/>
+      </p>
+      <p>A competitive coding arena where quizzes become <b>live multiplayer battles</b> 🎮 — real-time WebSocket rooms, live leaderboards, timed challenges, and an in-browser Monaco code editor with execution. <b>p95 ≤ 180ms</b> under load.</p>
+      <p align="center"><a href="https://github.com/YOUR-USERNAME/REPO-NAME">🔗 View Project</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🚶 CadencePocket</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/BiLSTM-FF6F00?style=flat-square"/>
+        <img src="https://img.shields.io/badge/FiLM-4B0082?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Signal_Processing-1E90FF?style=flat-square"/>
+      </p>
+      <p>A 609K-parameter model that recognizes human activity from a phone in your pocket — across <b>7 datasets it was never trained on</b>. Shift-aware, label-free calibration hits <b>95.9% macro-F1</b> on zero-shot targets.</p>
+      <p align="center"><a href="https://github.com/YOUR-USERNAME/REPO-NAME">🔗 View Project</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🎙️ TruthReaper</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/BiLSTM-FF6F00?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Audio_ML-DC143C?style=flat-square"/>
+      </p>
+      <p>A voice-based behavioral classifier that reads between the lines — pauses, disfluencies, pitch, energy, sentiment — from short, noisy audio clips. <b>89.4% accuracy · 93.5% precision</b> with robust validation.</p>
+      <p align="center"><a href="https://github.com/YOUR-USERNAME/REPO-NAME">🔗 View Project</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🧠 Digital Life Curator</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square"/>
+        <img src="https://img.shields.io/badge/RAG-8A2BE2?style=flat-square"/>
+      </p>
+      <p>An AI agent that swallows your digital chaos — PDFs, notes, receipts, code snippets — into a <b>100K+ document FAISS vector index</b> and gives back semantic search, summaries, and context-aware answers.</p>
+      <p align="center"><a href="https://github.com/YOUR-USERNAME/REPO-NAME">🔗 View Project</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🤖 LLM Code Review Assistant</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RAG-8A2BE2?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Hackathon-FFD700?style=flat-square"/>
+      </p>
+      <p>Built at <b>HackSJ 2025 in 24 hours</b> (team of 3) — an AI reviewer that learns from your team's past PR comments via RAG and suggests context-aware improvements, with a human-in-the-loop approval step.</p>
+      <p align="center"><a href="https://github.com/YOUR-USERNAME/REPO-NAME">🔗 View Project</a></p>
+    </td>
+  </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
-<table>
-<tr><td>
+## 🏆 Hall of Fame
 
-### 🔔 [NotifyOps](https://github.com/manasa-deshagouni/notifyops)
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="GitHub Trophies"/>
+</div>
 
-```
-  03:14:22 ⚠  ALERT  disk_full on prod-db-03
-  03:14:22 ⚠  ALERT  disk_full on prod-db-03   ← duplicate, suppressed
-  03:14:23 ⚠  ALERT  disk_full on prod-db-03   ← duplicate, suppressed
-  03:14:24 🔔 PAGED  @sarah (on-call: infra)    ← 1.9s from first alert
-  03:14:26 ✅ ACK    @sarah acknowledged         ← 220ms ack→resolve
-  
-  ┌─────────────────────────────┐
-  │ 3 alerts → 1 page → 1 ack  │
-  │ 58% noise eliminated       │
-  └─────────────────────────────┘
-```
-
-**Pages the right engineer. Kills the noise.**
-
-Multi-tenant on-call alerting SaaS with real-time dedup, correlation, and idempotent workers. JWT/HMAC-secured ingest. React + WebSocket console for live ack/resolve. Runs standalone or as a pre-filter ahead of PagerDuty/Opsgenie.
-
-| Metric | Result |
-|:---|:---|
-| First-notify p95 | **1.9s @ 350 req/s** |
-| Duplicate suppression | **58%** |
-| Delivery success | **77% → 94%** (retries + backoff + DLQ < 0.6%) |
-| Ack→resolve p95 | **220ms** |
-
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=spring-boot&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&amp;logo=apache-kafka&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" />
-
-</td></tr>
+<table align="center">
+  <tr>
+    <td align="center">🥇</td>
+    <td><b>ICPC Asia Regional Contest</b> — Ranked <b>Top 10 of 136 teams</b>, solving 7 problems &nbsp;<a href="https://icpc.global/regionals/finder/AMP-2022/standings">📊 Standings</a></td>
+  </tr>
+  <tr>
+    <td align="center">📜</td>
+    <td><b>Best Paper Award</b> — <a href="https://journal.ipem.edu.in/computer_applications/wp-content/uploads/2024/02/paper-3.pdf">Brain Tumor Detection using Machine Learning</a>, First Author, ICCDS 2024</td>
+  </tr>
+  <tr>
+    <td align="center">✍️</td>
+    <td><b>Published Research</b> — <a href="https://ijsrset.com/home/issue/view/article.php?id=IJSRSET2310102">Deep Learning Techniques for Detection of Deepfakes</a>, First Author, IJSRSET, ICSCR 2023</td>
+  </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
-<table>
-<tr><td>
+## 📊 GitHub Analytics
 
-### 🎭 [TruthReaper](https://github.com/manasa-deshagouni/truthreaper)
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</div>
 
-```
-          AUDIO                          TEXT
-            │                              │
-   ┌────────▼────────┐          ┌──────────▼──────────┐
-   │  Acoustic feats  │          │  DistilBERT + cues  │
-   │  → BiLSTM        │          │  → text embedding    │
-   └────────┬────────┘          └──────────┬──────────┘
-            │         confidence            │
-            └──────────┐  ┌────────────────┘
-                    ┌──▼──▼──┐
-                    │ XGBoost │  ← late fusion
-                    │  Fuser  │
-                    └────┬───┘
-                         │
-                    ┌────▼────┐
-                    │ TRUTH or │
-                    │ DECEPTION│
-                    └─────────┘
-                    
-   accuracy: 89.4%  ·  precision: 93.5%
-```
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages"/>
+</div>
 
-**Your voice says more than your words.**
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="Contribution Graph"/>
+</div>
 
-Multimodal deception detection that fuses *what you say* with *how you say it*. Temporal acoustic features encoded via BiLSTM, transcript text encoded via DistilBERT with explicit lexical/linguistic cues, late-fused through XGBoost for robust classification on short, noisy clips.
+<!-- 🐍 Snake animation — requires the snake.yml workflow (see setup instructions) -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake eating my contributions"/>
+</div>
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" /> <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square" /> <img src="https://img.shields.io/badge/BiLSTM-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/DistilBERT-412991?style=flat-square" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3" width="100%"/>
 
-</td></tr>
-</table>
+## 🤝 Let's Connect
 
----
+<div align="center">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  &nbsp;
+  <a href="mailto:mansa.deshagouni@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  &nbsp;
+  <a href="https://YOUR-PORTFOLIO.com"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+</div>
 
-<details>
-<summary><b>🎮 More builds → QuizChronicles</b></summary>
+<br/>
 
-### [QuizChronicles](https://github.com/manasa-deshagouni/quizchronicles)
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Dev Joke"/>
+</div>
 
-```
-  ┌─ ROOM: "algo-arena" ──────── 4/10 players ─┐
-  │                                              │
-  │  🟢 alice    142 pts   solving Q3...         │
-  │  🟢 bob      138 pts   submitted ✓  180ms   │
-  │  🟡 charlie  120 pts   idle                  │
-  │  🟢 you      155 pts   🏆 leading            │
-  │                                              │
-  │  ⏱️ 02:34 remaining                          │
-  │  fan-out: 120ms p95 across 800 sockets       │
-  └──────────────────────────────────────────────┘
-```
-
-Interactive coding + quiz platform with modular Spring Boot backend, sandboxed code execution, React + Monaco editor, real-time rooms, leaderboards, proctor controls over WebSockets, and a timed game-themed solo coding mode.
-
-| Metric | Result |
-|:---|:---|
-| Submission p95 | **180ms @ 200 users** |
-| Fan-out p95 | **120ms @ 800 sockets** |
-| Dropped updates | **< 0.5%** |
-| Cache speedup | **230 → 140ms (−39%)** |
-
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=spring-boot&amp;logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" /> <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" /> <img src="https://img.shields.io/badge/Monaco-007ACC?style=flat-square&amp;logo=visual-studio-code&amp;logoColor=white" /> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat-square&amp;logo=k6&amp;logoColor=white" />
-
-</details>
-
----
-
-## `work/production`
-
-> [!NOTE]
-> Can't open-source proprietary code — but here's what I built and what it did.
-
-<table>
-<tr>
-<td width="4%" align="center">⚡</td>
-<td><b>Predictive Reliability Engine</b></td>
-<td width="38%">
-
-```
-Kafka → FastAPI+ONNX → Spring Boot gates
-     scoring: p95 85ms @ 1.2k msgs/s
-
-shadow mode → canary (14d, 0 FP) → prod
-```
-
-</td>
-<td align="right">
-  <img src="https://img.shields.io/badge/incidents-↓80%25-2ea44f?style=flat-square" /><br/>
-  <img src="https://img.shields.io/badge/manual_work-↓70%25-2ea44f?style=flat-square" /><br/>
-  <img src="https://img.shields.io/badge/diagnosis-↓73%25-2ea44f?style=flat-square" />
-</td>
-</tr>
-<tr>
-<td align="center">🤖</td>
-<td><b>GenAI Product Features</b></td>
-<td>
-
-```
-config/logs → sanitize → RAG retrieve
-  → LLM (LLaMA-2 / Mistral-7B + LoRA)
-  → validate schema → serve
-```
-
-</td>
-<td align="right">
-  <img src="https://img.shields.io/badge/MVP-4_weeks-2ea44f?style=flat-square" /><br/>
-  <img src="https://img.shields.io/badge/prod-3_months-2ea44f?style=flat-square" /><br/>
-  <img src="https://img.shields.io/badge/users-5k%2B-2ea44f?style=flat-square" />
-</td>
-</tr>
-<tr>
-<td align="center">🔧</td>
-<td><b>ECG Platform Services</b></td>
-<td>
-
-```
-20+ UIs + Spring Boot APIs
-dual-schema rollout → 0 breakages
-correlation IDs: UI→API→workers
-```
-
-</td>
-<td align="right">
-  <img src="https://img.shields.io/badge/build_time-↓22%25-2ea44f?style=flat-square" /><br/>
-  <img src="https://img.shields.io/badge/MTTR-↓40%25-2ea44f?style=flat-square" /><br/>
-  <img src="https://img.shields.io/badge/misconfigs-↓31%25-2ea44f?style=flat-square" />
-</td>
-</tr>
-</table>
-
----
-
-## `research/active`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🦠 Neural Fingerprints for Malware
-**Graduate Research Assistant @ SJSU**
-
-```
-malware binary → image → ResNet encoder
-  → L2 normalize → hypersphere embedding
-  → FAISS HNSW → nearest family match
-
-  train: 47 families (MalNet + MalImg)
-  test:  17 unseen families (zero-shot)
-```
-
-Learning domain-robust embeddings with **ProxyAnchor**, **Triplet**, and **SupCon** losses so unseen malware can be clustered and retrieved — without retraining.
-
-**Key insight:** Strong in-domain separation ≠ cross-domain generalization. The bottleneck is representation stability under dataset shift, not loss function choice.
-
-| | |
-|:---|:---|
-| Cross-domain retrieval | **88.02%** (MalNet→MalImg) |
-| Strict zero-shot | **57–67%** (17 unseen families) |
-| Best loss | ProxyAnchor |
-
-</td>
-<td width="50%" valign="top">
-
-### 🏃 Cross-Domain HAR
-**Zero-shot Pocket Activity Recognition**
-
-```
-4 source datasets (heterogeneous phones)
-  → unified calibration pipeline
-  → physics-aware temporal model
-  → 3 zero-shot target datasets
-
-  standing recall: 0% ──fix pipeline──→ ~99%
-```
-
-Multi-source domain adaptation for **Sitting / Standing / Walking**. Physics-aware calibrator auto-detects sampling rate, units, and orientation of unseen sensors.
-
-**Key insight:** Standing recall collapsed to ~0% from preprocessing-distribution mismatch — not model weakness. Fixing the pipeline fixed the model.
-
-| | |
-|:---|:---|
-| Source-domain F1 | **94.1%** (subject-disjoint) |
-| Zero-shot transfer | **~95.9%** (UTwente) |
-| Standing recovery | **0% → ~99%** |
-
-</td>
-</tr>
-</table>
-
----
-
-## `papers/`
-
-| Year | Paper | Venue |
-|:----:|-------|-------|
-| 🏆 2024 | [**Brain Tumor Detection using Machine Learning**](https://journal.ipem.edu.in/computer_applications/wp-content/uploads/2024/02/paper-3.pdf) | ICCDS 2024 · **Best Paper Award** |
-| 2023 | [**Deep Learning Techniques for Detection of Deepfakes**](https://ijsrset.com/home/issue/view/article.php?id=IJSRSET2310102) | IJSRSET (ICSCR 2023) |
-
----
-
-## `stack.yml`
-
-```yaml
-languages:
-  - Java
-  - Python
-  - Go
-  - C++
-  - TypeScript
-  - SQL
-
-ml_and_ai:
-  - PyTorch
-  - TensorFlow
-  - Transformers
-  - ONNX Runtime
-  - FAISS
-  - PEFT / LoRA
-  - LangChain
-  - scikit-learn
-  - XGBoost
-
-backend_and_systems:
-  - Spring Boot
-  - Spring Security
-  - FastAPI
-  - Kafka
-  - Redis
-  - PostgreSQL
-  - MongoDB
-  - Docker
-  - Kubernetes
-  - GCP
-  - AWS
-
-frontend:
-  - React
-  - Angular
-  - Tailwind
-  - Vite
-
-observability:
-  - Grafana
-  - Prometheus
-  - Selenium / Cucumber
-  - JUnit
-  - k6
-```
-
----
-
-<p align="center">
-  <i>"Research matters. Production proves it."</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:161b22,100:1f6feb&amp;height=100&amp;section=footer" width="100%"/>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+</div>
