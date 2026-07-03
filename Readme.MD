@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=I+build+AI+systems+that+survive+contact+with+production." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=I+build+AI+systems+that+survive+production." />
 </p>
 
 <p align="center">
